@@ -1,0 +1,100 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Champ de texte pour le nom -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="cursive"
+        android:text="Ajout"
+        android:textAlignment="center"
+        android:textColor="#40071A"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et_nom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:hint="Saisie le nom"
+        android:inputType="textPersonName"
+        android:padding="8dp"
+        android:textColorHint="#907C83"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <!-- Champ de texte pour le pseudo -->
+    <EditText
+        android:id="@+id/et_pseudo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="casual"
+        android:hint="Saisir pseudo"
+        android:inputType="text"
+        android:padding="8dp"
+        android:textColorHint="#B4929E"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <!-- Champ de texte pour le téléphone -->
+    <EditText
+        android:id="@+id/et_telephone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="casual"
+        android:hint="Saisir téléphone"
+        android:inputType="phone"
+        android:padding="8dp"
+        android:textColorHint="#99838B"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <!-- Bouton Ajouter -->
+
+    <!-- Bouton pour aller à l'activité d'affichage -->
+
+    <Button
+        android:id="@+id/btn_ajouter"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="#950D3B"
+        android:elevation="4dp"
+        android:fontFamily="casual"
+        android:padding="10dp"
+        android:text="Ajouter"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_afficher"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="#3F51B5"
+        android:elevation="4dp"
+        android:fontFamily="casual"
+        android:padding="10dp"
+        android:text="Afficher"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
